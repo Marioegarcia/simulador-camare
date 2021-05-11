@@ -1,17 +1,31 @@
-.App {
-  text-align: center;
+
+.img{
+
+ background-color: blue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.capturar{
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  background-color: blue;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.captura{
+  height: 700px;
 }
+
+.patos{
+
+  width:900px;
+  height:600px;
+  background-image: url("./assets//img/pato.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
 
 .App-header {
   background-color: #282c34;
@@ -24,15 +38,3 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
